@@ -1,0 +1,5 @@
+bs4
+Django
+djangorestframework
+requests
+urllib3
