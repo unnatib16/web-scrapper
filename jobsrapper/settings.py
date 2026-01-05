@@ -124,3 +124,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+TIME_ZONE = "Asia/Kolkata"  # set to your timezone
+USE_TZ = True
+
+# optional: nice date formatting for logs/admin
+APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
